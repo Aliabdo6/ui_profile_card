@@ -180,7 +180,7 @@ const ProfileCard = () => {
         {/* Image for Desktop */}
         <div className="w-full lg:w-2/5">
           <img
-            src="./desk.jpg"
+            src="./me.jpg"
             className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
           ></img>
         </div>
