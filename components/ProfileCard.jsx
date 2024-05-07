@@ -17,10 +17,12 @@ const ProfileCard = () => {
           ? "text-gray-900"
           : "text-gray-100"
       } leading-normal tracking-wider bg-cover`}
-      style={{
-        backgroundImage:
-          "url('https://images.pexels.com/photos/2236713/pexels-photo-2236713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-      }}
+      style={
+        {
+          // background: rgb(238,174,202);
+          // background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+      }
     >
       <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
         {/* Main Col */}
@@ -34,7 +36,7 @@ const ProfileCard = () => {
               className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://images.pexels.com/photos/40465/pexels-photo-40465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+                  "url('https://github.com/Aliabdo6/ui_profile_card/blob/master/public/me.jpg?raw=true')",
               }}
             ></div>
 
@@ -178,7 +180,7 @@ const ProfileCard = () => {
         {/* Image for Desktop */}
         <div className="w-full lg:w-2/5">
           <img
-            src="./me.jpg"
+            src="./desk.jpg"
             className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
           ></img>
         </div>
